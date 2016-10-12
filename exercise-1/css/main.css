@@ -12,5 +12,45 @@ see http://stackoverflow.com/questions/6871996/css-two-inline-block-width-50-ele
     box-sizing: border-box;
 }
 
+.wrapper{
+    display: inline-block;
+    font-size: 2rem;
+    border: 2px solid white;
+    background-color:#dad9d9;
+    width: 100%;
+}
+#photo{
+height: 400px;
+background-color:gray;
+}
+#photo p{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+
+}
+
+/* Media Rules */
+/* set wrapper width to 50% */
+.wrapper{
+    width: 50%;
+
+}
+
+/* hide label on small screens */
+#photo p{
+    display: none;
+
+}
+
+/* Bkacground image on small screens */
+#photo{
+background-image: url('../imgs/peacock.jpeg');
+background-repeat: no-repeat;
+background: cover;
+}
+
+
+
 
 /* Assign styles here */
