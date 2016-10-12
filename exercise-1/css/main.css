@@ -21,7 +21,7 @@ see http://stackoverflow.com/questions/6871996/css-two-inline-block-width-50-ele
 }
 #photo{
 height: 400px;
-background-color:gray;
+background:gray;
 }
 #photo p{
     font-size: 2rem;
@@ -32,6 +32,7 @@ background-color:gray;
 
 /* Media Rules */
 /* set wrapper width to 50% */
+@media screen and (min-width:768px){
 .wrapper{
     width: 50%;
 
@@ -49,6 +50,8 @@ background-image: url('../imgs/peacock.jpeg');
 background-repeat: no-repeat;
 background: cover;
 }
+}
+
 
 
 
