@@ -3,3 +3,19 @@
 * {
     box-sizing: border-box;
 }
+
+.col{
+    text-align: center;
+}
+
+h1{
+    font-weight: 300;
+    color: #DB7093;
+}
+i{
+    margin-bottom: 10px;
+     
+}
+.anchor{
+    color: #b388ff;
+}
